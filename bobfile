@@ -1,0 +1,11 @@
+include https://raw.githubusercontent.com/codemonstur/bobfiles/master/foss-app-github
+
+name: imageclean
+version: 1
+enablePreview: false
+packaging: bob-plugin
+dependencies:
+  - project: ../bobthebuildtool
+    scope: provided
+  - repository: org.apache.commons:commons-imaging:1.0-alpha3
+
